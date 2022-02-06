@@ -53,9 +53,9 @@ const { showNotification } = useNotifications();
 
 // show notification example
 showNotification({
-title: EXAMPLE_NOTIFICATION_CONTENT.title,
-text: EXAMPLE_NOTIFICATION_CONTENT.text,
-type: NotificationTypes.Success
+  title: EXAMPLE_NOTIFICATION_CONTENT.title,
+  text: EXAMPLE_NOTIFICATION_CONTENT.text,
+  type: NotificationTypes.Success
 })
 ```
 
