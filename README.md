@@ -48,7 +48,6 @@ All logic implemented inside Notification's context (src/contexts/NotificationsC
 
 ```
 // use hooks example
-export default function Main() {
 const { showNotification } = useNotifications();
 
 // show notification example
